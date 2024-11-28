@@ -1,0 +1,86 @@
+/* Centrar el contenido de la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 90%;
+    overflow-x: auto;
+  }
+  
+  /* Estilo de la tabla */
+  .table {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Navbar */
+  .navbar {
+    margin-bottom: 2rem;
+  }
+  
+  .navbar .btn {
+    border-radius: 20px;
+  }
+  
+  /* Toolbar centrada */
+  .toolbar {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los botones */
+    align-items: center; /* Centra verticalmente los botones */
+    margin-bottom: 1rem;
+    gap: 1rem; /* Espaciado entre botones */
+  }
+  
+  .toolbar button {
+    width: 120px; /* Ancho uniforme para los botones */
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar button:disabled {
+    opacity: 0.5; /* Botones deshabilitados visualmente atenuados */
+    cursor: not-allowed;
+  }
+  
+  /* Botones de acción con tamaños uniformes */
+  .action-button {
+    width: 100px; /* Define un ancho fijo para los botones */
+    text-align: center;
+  }
+  
+  /* Asegura consistencia en altura y alineación */
+  .action-button {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+  
+  .action-button.btn-sm {
+    padding: 0.25rem 0.5rem;
+  }
+  
